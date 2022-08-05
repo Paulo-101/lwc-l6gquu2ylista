@@ -1,0 +1,17 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">Empresas</h1>
+
+		<!-- 01-
+Crie um componente LWC que possua uma lista de 15 objetos com as seguintes chaves 
+(cod, nome da despesa, setor e valor) cada objeto deve ter valores distintos. Exiba esses valores organizados dentro do componente, 
+através do componente de datatable do LWC. Pesquise sua utilização e implemente na questão.
+-->
+
+		<div style="height: 300px;">
+			<lightning-datatable key-field="cod" data={listaEmpresa} columns={columns}>
+			</lightning-datatable>
+		</div>
+
+	</div>
+</template>

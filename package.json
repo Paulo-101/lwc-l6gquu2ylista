@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/paulo-101.lwc-l6gquu2y",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve p0pbaHfvDC2K1cdvbzpZ --open"
+  }
+}
